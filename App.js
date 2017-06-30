@@ -20,6 +20,7 @@ export default class App extends React.Component {
 
         <TextInput style={ {height: 40} }
         placeholder="Please enter your budget"
+        keyboardType= 'numeric'
         onChangeText={ (inputText)=>this.setState( {inputText} ) } />
 
         <Text style={ {padding:10,fontSize:16} } >
